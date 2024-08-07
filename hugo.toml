@@ -1,0 +1,19 @@
+baseURL = 'https://AlvinMcGee.github.io'
+languageCode = 'en-us'
+title = "Alvin McGee's Webpage"
+
+[params]
+navbar_title = "Alvin McGee's Webpage" # default: site's `title`
+footer = "Copyright © 2024 by Alvin McGee" # default: None
+enable_site_search = true
+enable_toc = true
+
+[taxonomies]
+category = "categories"
+tag = "tags"
+series = "series"
+
+[outputs]
+home = ["HTML", "RSS", "JSON"]
+
+
